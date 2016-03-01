@@ -7,6 +7,7 @@ FROM alpine:latest
 RUN apk --no-cache --update add \
                             build-base \
                             ca-certificates \
+                            curl \
                             ruby \
                             ruby-irb \
                             ruby-dev && \
